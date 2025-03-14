@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigo Secreto</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Banner -->
+        <div class="banner">
+            <h2>Diversão garantida</h2>
+            <img src="assets/banner-img.png" alt="Banner imagem" class="banner-img">
+        </div>
+
+        <!-- Título -->
+        <h1>Digite o nome dos amigos</h1>
+
+        <!-- Entrada de dados -->
+        <div class="input-group">
+            <input type="text" id="friendName" placeholder="Digite um nome">
+            <button id="addFriendBtn">
+                <span class="plus-icon">➕</span>    
+                Adicionar
+            </button>
+        </div>
+
+        <!-- Lista de amigos -->
+        <ul id="friendsList"></ul>
+
+        <!-- Resultado -->
+        <div id="resultMessage" class="result hidden"></div>
+
+        <!-- Botões -->
+        <div class="button-group">
+            <button id="drawFriendBtn" class="primary-btn">
+                <span class="play-icon">💫</span>
+                    Sortear amigo
+                <span class="play-icon">💫</span>
+            </button>
+            <button id="resetBtn" class="secondary-btn hidden">Resetar</button>
+        </div>
+
+    </div>
+
+    <script src="scripts/app.js"></script>
+</body>
+
+</html>
