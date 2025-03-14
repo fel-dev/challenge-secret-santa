@@ -32,14 +32,14 @@ Amigo-Secreto
    ```
 2. Navigate to the project directory:
    ```
-   cd Amigo-Secreto
+   cd challenge-secret-santa
    ```
-3. Open `src/index.html` in your web browser to view the application.
+3. Open `index.html` in your web browser to view the application.
 
 ## Usage
 
 1. Enter a friend's name in the input field.
-2. Click the "Add Friend" button to add the name to the list.
+2. Click the "Add" button to add the name to the list.
 3. Once you have added friends, click the "Sortear amigo" button to randomly select a secret friend. The selected friend's name will be displayed above the button, and the list of friends will be hidden.
 
 ## License
