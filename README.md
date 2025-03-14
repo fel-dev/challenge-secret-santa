@@ -10,8 +10,9 @@ Amigo-Secreto
 │   ├── index.html        # HTML structure of the website
 │   ├── styles
 │   │   └── style.css     # CSS styles for the website
-│   └── scripts
-│       └── app.js        # JavaScript logic for the website
+│   ├── scripts
+│   │   └── app.js        # JavaScript logic for the website
+|   └── assets            # Assets for the website 
 ├── .gitignore             # Files and directories to be ignored by Git
 └── README.md              # Documentation for the project
 ```
