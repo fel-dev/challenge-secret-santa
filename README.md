@@ -1,6 +1,6 @@
-# Amigo Secreto
+# Secret Santa
 
-Amigo Secreto is a simple web application that allows users to enter their friends' names and randomly select one as a "secret friend." This project is designed to be user-friendly and interactive.
+Amigo Secreto or Secret Santa is a simple web application that allows users to enter their friends' names and randomly select one as a "secret friend." This project is designed to be user-friendly and interactive.
 
 ## Project Structure
 
